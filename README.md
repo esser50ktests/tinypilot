@@ -72,7 +72,7 @@ curl \
 
 The installation process:
 
-* Creates a service account for TinyPilot with limited priviliges.
+* Creates a service account for TinyPilot with limited privileges.
 * Installs TinyPilot as a systemd service so it runs automatically on every boot.
 * Installs and configures TinyPilot's dependencies:
   * nginx, which listens on 0.0.0.0:80
@@ -102,7 +102,7 @@ To update to the latest version of TinyPilot, run the update script:
 
 ## Diagnostics
 
-If you're having trouble with TinyPilot, you can retrive logs from the web dashboard by clicking "Logs" in the bottom of the main dashboard.
+If you're having trouble with TinyPilot, you can retrieve logs from the web dashboard by clicking "Logs" in the bottom of the main dashboard.
 
 If you can't access the web dashboard, you can retrieve the logs by SSHing into the device and running the following command:
 
@@ -133,7 +133,7 @@ If you're interested in seeing what's happening with the project at a granular l
 * [TinyPilot Wiki](https://github.com/tiny-pilot/tinypilot/wiki): Guides for tasks related to TinyPilot.
 * [TinyPilot Ansible Role](https://github.com/tiny-pilot/ansible-role-tinypilot): Use [Ansible](https://docs.ansible.com/ansible/latest/index.html) to install TinyPilot and all dependencies as a systemd service.
 
-## Acknowledgments
+## Acknowledgements
 
 TinyPilot would not be possible without the excellent and generous work from many open source projects, the most notable of which are listed below:
 
